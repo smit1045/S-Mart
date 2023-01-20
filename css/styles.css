@@ -1,0 +1,162 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{ 
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+    will-change: transform;
+    padding-top: 0.5px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;   
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    color: #8f8f8f;
+    font-family: "ubuntu";
+}
+/* *************************************** navbar ************************************* */
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ************************** title ******************************** */
+
+#title{
+    background-color: #000;
+}
+.container{
+    padding: 3% 0;
+}
+.avail {
+    color: #6e6e73;
+    background: transparent;
+    border: 1px solid #6e6e73;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+.top-btn{
+    margin: 5% 3% 3% 0;
+}
+.top-image{
+    width: 100%;
+}
+@media (max-width:987px) {
+    .top{
+        text-align: center;
+    }
+}
+@media (min-width:987px){
+    .top-image{
+        padding-left: 50px;
+    }
+}
+
+/* ******************************************** Features *************************** */
+
+#fetures{
+    position: relative;
+    z-index: 1;
+}
+.second{
+    padding: 5%;
+    text-align: center;
+}
+.icon{
+    color: silver;
+    margin-bottom: 20px;
+}
+.ico{
+    color: #0081C9;
+    margin-bottom: 20px;
+}
+.ic{
+    color: #54B435;
+    margin-bottom: 20px;
+}
+.csb:hover{
+    color: #000;
+}
+.fea{
+    padding: 3% 10%;
+}
+
+/* ******************************** testimonials ************************************ */
+#testimonials{
+    text-align: center;
+    background-color: #000;
+    color: #f6f6f6;
+    font-family: "ubuntu";
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-image{
+    margin: 50px;
+    border-radius: 100%;
+    width: 15%;
+}
+/* ************************** pricing section ****************************/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-box{
+    padding: 3% 10%;
+}
+/* **************************************** cta ***********************************/
+#cta{
+    background-color: #000;
+    padding: 3% 15%;
+    text-align: center;
+}
+.cta-h3{
+    color: #f6f6f6;
+    line-height: 2;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+/* ************************************ footer ************************************ */
+#footer{
+    padding: 3% 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer-text{
+    color: #000;
+}
+.footer-icon{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.footer-icon:hover{
+    color: rgb(0, 68, 255);
+}
+.footer-icon3:hover{
+    color: rgb(236, 2, 80);
+}
